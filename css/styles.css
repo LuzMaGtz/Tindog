@@ -1,0 +1,199 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Encabezados */
+.big-heading {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.row {
+    padding: 5% 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Barra de Navegación*/
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/*Botones de descarga*/
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/*Titulo imagen*/
+.contenedor-img {
+    position: relative;
+}
+
+
+.img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    text-align: right;
+    right: 25%;
+}
+
+/*Sección de features*/
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature-title {
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding-top: 5px;
+}
+
+.iconos {
+    color: #ef8172;
+    margin: 10%;
+}
+
+.iconos:hover {
+    color: #ff4c68;
+}
+
+.col-lg-4 {
+    padding: 0 5%;
+}
+
+/* Sección de testimonios */
+#testimonials, #press {
+    background-color: #ef8172;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+
+#press {
+    padding: 3%;
+}
+
+.press-logo {
+    margin: 20px 20px 50px 0;
+    width: 15%;
+}
+
+/* Seccion de costos */
+
+#pricing {
+    padding: 100px;
+}
+
+.tarjeta {
+    padding: 0%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.dogs {
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding-top: 5px;
+}
+
+/* Sección de descargas */
+
+#cta {
+    padding: 8% 20%;
+}
+
+/* footer */
+#footer {
+    padding: 5%;
+}
+
+/* consulta de medios */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .img {
+        position: static;
+        transform: rotate(0);
+    }
+}
